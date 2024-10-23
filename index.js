@@ -7,6 +7,7 @@ import mongoose from "mongoose";
 import authRoute from "./routes/auth.js";
 import bodyParser from "body-parser";
 
+// main
 const app = express();
 dotenv.config();
 const port = process.env.PORT || 8000;
